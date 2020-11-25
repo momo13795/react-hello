@@ -10,7 +10,7 @@ pipeline {
                     echo $PATH
                     export PATH=/usr/local/bin:$PATH
 		    node -v
-                    nmp install
+                    npm install
                 '''
             }
         }
