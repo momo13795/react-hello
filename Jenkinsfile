@@ -8,6 +8,8 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                     echo $PATH
+                    export PATH=/usr/local/bin:$PATH
+		    node -v
                 '''
             }
         }
