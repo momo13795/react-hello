@@ -12,6 +12,7 @@ pipeline {
 		    pwd
                     echo "Multiline shell steps works too"
                     ls -lah
+                    source /etc/profile
 		    npm -v
                 '''
             }
