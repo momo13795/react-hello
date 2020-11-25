@@ -9,10 +9,7 @@ pipeline {
                 sh '''
 		    whoami
 		    pwd
-                    echo "Multiline shell steps works too"
-                    ls -lah
-		    npm -v
-                '''
+                  '''
             }
         }
     }
